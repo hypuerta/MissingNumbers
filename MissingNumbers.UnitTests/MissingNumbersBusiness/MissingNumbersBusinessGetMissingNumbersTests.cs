@@ -13,6 +13,7 @@ namespace MissingNumbers.UnitTests.MissingNumbersBusiness
     using BusinessLogic.Interfaces;
     using Entities;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Utilities.Resources;
 
     /// <summary>
     /// Test Class MissingNumbersBusinessGetMissingNumbersTests.
@@ -49,7 +50,7 @@ namespace MissingNumbers.UnitTests.MissingNumbersBusiness
             };
 
             string result = this.missingNumbersBusiness.GetMissingNumbers(missingNumbersViewModel);
-            Assert.AreEqual("Ocurrió un error convirtiendo los números.", missingNumbersViewModel.ErrorMessage);
+            Assert.AreEqual(MissingNumbersMessages.ErrorConvertingNumbers, missingNumbersViewModel.ErrorMessage);
             Assert.AreEqual(string.Empty, result);
         }
 
@@ -68,7 +69,7 @@ namespace MissingNumbers.UnitTests.MissingNumbersBusiness
             };
 
             string result = this.missingNumbersBusiness.GetMissingNumbers(missingNumbersViewModel);
-            Assert.AreEqual("Ocurrió un error convirtiendo los números.", missingNumbersViewModel.ErrorMessage);
+            Assert.AreEqual(MissingNumbersMessages.ErrorConvertingNumbers, missingNumbersViewModel.ErrorMessage);
             Assert.AreEqual(string.Empty, result);
         }
 

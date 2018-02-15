@@ -1,0 +1,7 @@
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.Utilities\bin\Debug\MissingNumbers.Utilities.dll
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.Utilities\bin\Debug\MissingNumbers.Utilities.pdb
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.Utilities\obj\Debug\MissingNumbers.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.Utilities\obj\Debug\MissingNumbers.Utilities.Resources.MissingNumbersMessages.resources
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.Utilities\obj\Debug\MissingNumbers.Utilities.csproj.GenerateResource.Cache
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.Utilities\obj\Debug\MissingNumbers.Utilities.dll
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.Utilities\obj\Debug\MissingNumbers.Utilities.pdb

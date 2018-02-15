@@ -14,6 +14,7 @@ namespace MissingNumbers.BusinessLogic.Classes
     using System.Linq;
     using BusinessLogic.Interfaces;
     using Entities;
+    using Utilities.Resources;
 
     /// <summary>
     /// Implements Missing Numbers Business.
@@ -80,7 +81,7 @@ namespace MissingNumbers.BusinessLogic.Classes
             }
             catch (Exception)
             {
-                missingNumbersViewModel.ErrorMessage = "Ocurrió un error convirtiendo los números.";
+                missingNumbersViewModel.ErrorMessage = MissingNumbersMessages.ErrorConvertingNumbers;
             }
 
             return missingNumbersViewModel;
@@ -123,27 +124,27 @@ namespace MissingNumbers.BusinessLogic.Classes
         {
             if ((missingNumbersViewModel.SecondArrayNumbers.Max() - missingNumbersViewModel.SecondArrayNumbers.Min()) > 100)
             {
-                return "La diferencia entre los numeros del segundo arreglo es mayor a 100";
+                return MissingNumbersMessages.ErrorSecondArrayDifferenceNunmberGreater100;
             }
 
             if (missingNumbersViewModel.FirstArrayLength < 1)
             {
-                return "La longitud del primer arreglo debe ser mayor a 1";
+                return MissingNumbersMessages.ErrorLengthFirstArray;
             }
 
             if (missingNumbersViewModel.SecondArrayLength > 2 * Math.Pow(10, 5))
             {
-                return "Longitud del segundo arreglo demasiado grande";
+                return MissingNumbersMessages.ErrorSecondArrayGreat;
             }
 
             if (missingNumbersViewModel.FirstArrayLength > missingNumbersViewModel.SecondArrayLength)
             {
-                return "El segundo arreglo debe ser mayor que el primero";
+                return MissingNumbersMessages.ErrorArraysLength;
             }
 
             if (missingNumbersViewModel.SecondArrayNumbers.Max() > Math.Pow(10, 4) || missingNumbersViewModel.SecondArrayNumbers.Min() < 1)
             {
-                return "Los números del segundo arreglo están fuera del rango";
+                return MissingNumbersMessages.ErrorSecondArrayNumbersOutOfRange;
             }
 
             return string.Empty;

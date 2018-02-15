@@ -69,3 +69,5 @@ C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNum
 C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers\obj\Debug\MissingNumbers.csprojResolveAssemblyReference.cache
 C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers\obj\Debug\MissingNumbers.dll
 C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers\obj\Debug\MissingNumbers.pdb
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers\bin\MissingNumbers.Utilities.dll
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers\bin\MissingNumbers.Utilities.pdb

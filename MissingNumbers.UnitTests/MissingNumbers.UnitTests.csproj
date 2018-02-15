@@ -99,6 +99,10 @@
       <Project>{CE09BD97-5F79-4744-821A-636CA70C4256}</Project>
       <Name>MissingNumbers.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MissingNumbers.Utilities\MissingNumbers.Utilities.csproj">
+      <Project>{1B0A254A-D30B-46D0-B041-2788685C7643}</Project>
+      <Name>MissingNumbers.Utilities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MissingNumbers\MissingNumbers.csproj">
       <Project>{50A3AEF2-018A-406C-A7ED-800A6C2A5878}</Project>
       <Name>MissingNumbers</Name>
