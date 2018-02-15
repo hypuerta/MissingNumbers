@@ -1,0 +1,7 @@
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.BusinessLogic\bin\Debug\MissingNumbers.BusinessLogic.dll
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.BusinessLogic\bin\Debug\MissingNumbers.BusinessLogic.pdb
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.BusinessLogic\bin\Debug\MissingNumbers.Entities.dll
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.BusinessLogic\bin\Debug\MissingNumbers.Entities.pdb
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.BusinessLogic\obj\Debug\MissingNumbers.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.BusinessLogic\obj\Debug\MissingNumbers.BusinessLogic.dll
+C:\Users\hpuerta\documents\visual studio 2017\Projects\MissingNumbers\MissingNumbers.BusinessLogic\obj\Debug\MissingNumbers.BusinessLogic.pdb

@@ -1,0 +1,50 @@
+﻿@model MissingNumbers.Entities.MissingNumbersViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div style="margin-top: 30px;">
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            <div>
+                <div class="form-group col-md-12">
+                    <label>Longitud del primer arreglo: </label>
+                    @Html.TextBoxFor(m => m.FirstArrayLength, new { @class = "form-control", @style = "width: 100%", required = "required" })
+                    <label>Números del primer arreglo: </label>
+                    @Html.TextBoxFor(m => m.FirstArrayStringNumbers, new { @class = "form-control", @style = "width: 100%", required = "required" })
+                </div>
+                <div class="form-group col-md-12">
+                    <label>Longitud del segundo arreglo: </label>
+                    @Html.TextBoxFor(m => m.SecondArrayLength, new { @class = "form-control", @style = "width: 100%", required = "required" })
+                    <label>Números del segundo arreglo: </label>
+                    @Html.TextBoxFor(m => m.SecondArrayStringNumbers, new { @class = "form-control", @style = "width: 100%", required = "required" })
+                </div>
+            </div>
+
+            <input type="submit" class="btn btn-success" value="Enviar" />
+        }
+
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="form-group col-md-12" style="margin:30px;">
+                <strong>Error:</strong>
+                @Html.TextBoxFor(m => m.ErrorMessage, new { @class = "form-control", disabled = "disabled" })
+            </div>
+        }
+        else
+        {
+            if (!string.IsNullOrEmpty(Model.MissingNumbersResult))
+            {
+                <div class="form-group col-md-12" style="margin:30px;">
+                    <strong>Resultado:</strong>
+                    @Html.TextBoxFor(m => m.MissingNumbersResult, new { @class = "form-control", disabled = "disabled" })
+                </div>
+            }
+        }
+    </div>
+</body>
+</html>
